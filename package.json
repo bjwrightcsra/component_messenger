@@ -4,12 +4,16 @@
   "description": "Send a message to an angular component Input",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [
     "component",
     "messager"
   ],
   "author": "B.J. Wright",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.3.4000"
+  }
 }
