@@ -1,0 +1,15 @@
+{
+  "name": "component-messenger",
+  "version": "1.0.0",
+  "description": "Send a message to an angular component Input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "component",
+    "messager"
+  ],
+  "author": "B.J. Wright",
+  "license": "ISC"
+}
