@@ -6,7 +6,7 @@ export class ComponentEventMessage {
      * @param objectMessageToSend object to send as a message, ends up in payload of detail
      */
     public static sendEventToWindow(eventName :string, objectMessageToSend: any) {
-        window.dispatchEvent(new CustomEvent(objectMessageToSend, {
+        window.dispatchEvent(new CustomEvent(eventName, {
             detail: {
                 payload: objectMessageToSend
             }, 

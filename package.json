@@ -1,6 +1,6 @@
 {
   "name": "component-messenger",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Send a message to an angular component Input",
   "main": "index.js",
   "scripts": {
