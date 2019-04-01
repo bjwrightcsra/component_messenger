@@ -1,6 +1,6 @@
 {
   "name": "component-messenger",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Send a message to an angular component Input",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "custom-event-polyfill": "^1.0.6"
   }
 }
